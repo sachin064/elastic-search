@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_elastic_search_1696432528706-push-trigger-input-set
+  identifier: Build_elastic_search_1696432528706pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_elastic_search_1696432528706
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
